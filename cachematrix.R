@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
     # Define function to set the value of the matrix
     set <- function(y) {
         x <<- y    # Set value
-        m <<- NULL # Clear  cache
+        m <<- NULL # Clear cache
     }
         
     # Define function value of the matrix
